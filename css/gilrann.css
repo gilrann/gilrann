@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Russo One';
+    src:
+      url(../fonts/RussoOne-Regular.woff),
+      url(../fonts/RussoOne-Regular.eot);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src:
+      url(../fonts/YanoneKaffeesatz-Thin.woff),
+      url(../fonts/YanoneKaffeesatz-Thin.eot);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src:
+      url(../fonts/YanoneKaffeesatz-Light.woff),
+      url(../fonts/YanoneKaffeesatz-Light.eot);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src:
+      url(../fonts/YanoneKaffeesatz-Regular.woff),
+      url(../fonts/YanoneKaffeesatz-Regular.eot);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    src:
+      url(../fonts/YanoneKaffeesatz-Bold.woff),
+      url(../fonts/YanoneKaffeesatz-Bold.eot);
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.all-about {
+  max-width: 1800px;
+  margin:0 auto;
+}
+
+.fro {
+  font-family: 'Russo One', sans-serif;
+}
+
+.fyk {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sitehead__logo {
+  font-size: 60px;
+}
+
+.sitehead__img {
+  width: 100px;
+  height: 100px;
+}
