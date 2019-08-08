@@ -315,8 +315,6 @@ html {
 
 .projects__box {
   width: 30%;
-  /*! border-style: solid; */
-  /*! border-color: #8b4513; */
   box-shadow: 0 15px 15px 1px #8b4513;
   padding: 10px;
   display: flex;
@@ -332,7 +330,7 @@ html {
   text-align: center;
 }
 
-.projects__link {}
+.projects__link {text-decoration: none;}
 
 .projects__view {
   position: relative;
@@ -350,7 +348,7 @@ html {
 .projects__001::before {
   content: "RIZOR, учебный проект HTMLAcademy";
   color: aliceblue;
-  text-decoration-line: underline;
+  /*! text-decoration-line: underline; */
 }
 
 .projects__001:hover::before {
