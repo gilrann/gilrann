@@ -319,6 +319,7 @@ html {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .projects-name {
@@ -341,34 +342,53 @@ html {
   background-position: center;
 }
 
-.projects__001 {
-  background-image: url("../img/rizor.png");
+.projects__view::after {
+  color: #fbceb1;
+  background-color: rgba(139, 69, 19, 0.5);
+  border-style: solid;
+  border-color: #8b4513;
+  border-radius: 30px;
+  padding: 5px;
+  position: absolute;
+  bottom:0;
+  right: 0;
 }
 
-.projects__001::before {
-  content: "RIZOR, учебный проект HTMLAcademy";
-  color: aliceblue;
-  /*! text-decoration-line: underline; */
-}
-
-.projects__001:hover::before {
+.projects__view:hover::after {
   display: block;
   font-size: 2vw;
   color: #fbceb1;
 }
 
-.projects__001 a:hover {
+.projects__view a:after {
   text-decoration: none;
   text-decoration-line: none;
 }
 
-.projects__001:hover::after {
-  display: block;
+
+.projects__001 {
+  background-image: url("../img/rizor.jpg");
 }
 
-.projects__002 {}
+.projects__001::after {
+  content: "RIZOR, учебный проект HTMLAcademy";
+}
 
-.projects__003 {}
+.projects__002 {
+  background-image: url("../img/iamwoman.jpg");
+}
+
+.projects__002::after {
+  content: "I AM WOMAN, учебный проект HTMLAcademy";
+}
+
+.projects__003 {
+  background-image: url("../img/device.jpg");
+}
+
+.projects__003::after {
+  content: "DEVICE, учебный проект HTMLAcademy";
+}
 
 .skills {grid-column: 1/-1;grid-row: 3/4;}
 
