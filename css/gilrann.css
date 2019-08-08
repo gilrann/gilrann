@@ -270,7 +270,87 @@ html {
   font-weight: 300;
 }
 
-.projects {grid-column: 1/-1;grid-row: 4/5;flex-direction: column;}
+
+.skills {
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  flex-direction: column;
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 10px 0 0;
+  list-style: none;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  /*! width: 50%; */
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.skills__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__name {
+  margin: 10px;
+  padding: 0;
+  color: #fbceb1;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+
+.skills__item {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  transform: rotate(-45deg);
+  border-color: #FFFF9933;
+}
+
+.skills__item::before {
+  content:'';
+  position:absolute;
+  font-size: 32px;
+  line-height: 150px;
+  top:0;
+  left:45%;
+  transform: rotate(45deg);
+  color: #FF9;
+}
+
+.s50 {
+  border-right-color:#FFFF99;
+  border-bottom-color:#FFFF99;
+}
+
+.s50::before {
+  content: "50";
+}
+
+.s25 {
+  border-right-color:#FFFF99;
+}
+
+.s25::before {
+  content: "25";
+}
+
+
+
+.projects {
+  grid-column: 1/-1;
+  grid-row: 4/5;
+  flex-direction: column;
+}
 
 .projects__types {
   display: flex;
@@ -390,7 +470,7 @@ html {
   content: "DEVICE, учебный проект HTMLAcademy";
 }
 
-.skills {grid-column: 1/-1;grid-row: 3/4;}
+
 
 .thx {grid-column: 1/-1;grid-row: 5/6;}
 
