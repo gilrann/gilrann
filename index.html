@@ -11,129 +11,78 @@
 
 <body class="all-about">
   <div class="sitesystem">
-    <header class="sitehead">
-      <div class="sitehead__logo" id="up">
-        <img class="sitehead__img" src="img/mylogo.png" alt="Логотип Gilrann">
-      </div>
-      <h1 class="sitehead__title fro">Gilrann vs frontend</h1>
-    </header>
+    <header class="sitehead__wrapper">
+      <div class="sitehead">
+        <img class="sitehead__img" src="img/logomod3.png" alt="Логотип Gilrann">
+        <h1 class="sitehead__title fro">Gilrann vs frontend</h1>
 
-    <aside class="side__stickers">
-      <ul class="side__list">
-        <li class="menu__item fro"><a href="index.html#aboutme">Обо мне</a></li>
-        <li class="menu__item fro"><a href="index.html#projects">Мои проекты</a></li>
-        <li class="menu__item fro"><a href="index.html#skills">Мои навыки</a></li>
-        <li class="menu__item fro"><a href="index.html#thx">Спасибо</a></li>
-        <!-- <li class="menu__item fro"><a href="index.html#up">Наверх</a></li> -->
-      </ul>
-    </aside>
+        <ul class="sitehead__menu">
+          <li class="sitehead__item fyk"><a href="#">Обо мне</a></li>
+          <li class="sitehead__item fyk"><a href="#">Мои навыки</a></li>
+          <li class="sitehead__item fyk"><a href="#">Портфолио</a></li>
+          <li class="sitehead__item fyk"><a href="#">Спасибо</a></li>
+          <li class="sitehead__item fyk"><a href="#">Контакты</a></li>
+        </ul>
+
+        <div class="sitehead__sign">
+          <button type="button" name="sign-in-button" class="btn sign-in-button">Sign in</button>
+        </div>
+
+      </div>
+    </header>
 
     <main class="content">
 
         <article class="aboutme block" id="aboutme">
-          <h2 class="block__subtitle fyk">Обо мне</h2>
+          <h2 class="block__subtitle fro">Привет!</h2>
           <div class="aboutme__photo">
-            <img class="aboutme__pic" src="img/photo.jpg" alt="Моё фото">
+            <img class="aboutme__pic" src="img/iam.png" alt="Моё фото">
           </div>
-          <div class="aboutme__info">
-            <table class="aboutme__table">
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Моё имя:</td>
-                <td class="aboutme__answer fyk">Полина Gilrann Арефьева</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Мой возраст:</td>
-                <td class="aboutme__answer fyk">средний</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Мой город:</td>
-                <td class="aboutme__answer fyk">Новосибирск</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Сфера интересов:</td>
-                <td class="aboutme__answer fyk">вёрстка, фронтенд</td>
-              </tr>
-            </table>
-          </div>
-        </article>
-        <article class="projects block" id="projects">
-          <h2 class="block__subtitle fyk">Мои проекты</h2>
-          <ul class="projects__list">
 
-                <li class="projects__box fyk">
-                  <h3 class="projects-name">RIZOR</h3>
-                  <a href="https://gilrann.github.io/rizor/" class="projects__link">
-                    <div class="projects__view projects__001"></div>
-                  </a>
-                </li>
-
-                <li class="projects__box fyk">
-                  <h3 class="projects-name">RIZOR</h3>
-                  <a href="https://gilrann.github.io/rizor/" class="projects__link">
-                    <div class="projects__view projects__001"></div>
-                  </a>
-                </li>
-
-                <li class="projects__box fyk">
-                  <h3 class="projects-name">RIZOR</h3>
-                  <a href="https://gilrann.github.io/rizor/" class="projects__link">
-                    <div class="projects__view projects__001"></div>
-                  </a>
-                </li>
-
-          </ul>
         </article>
         <article class="skills block" id="skills">
-          <h2 class="block__subtitle fyk">Мои навыки</h2>
-          <div class="aboutme__photo">
-            <img class="aboutme__pic" src="img/photo.jpg" alt="Моё фото">
-          </div>
-          <div class="aboutme__info">
-            <table class="aboutme__table">
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Моё имя:</td>
-                <td class="aboutme__answer fyk">Полина Gilrann Арефьева</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Мой возраст:</td>
-                <td class="aboutme__answer fyk">средний</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Мой город:</td>
-                <td class="aboutme__answer fyk">Новосибирск</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Сфера интересов:</td>
-                <td class="aboutme__answer fyk">вёрстка, фронтенд</td>
-              </tr>
-            </table>
-          </div>
+          <h2 class="block__subtitle fro">Мои навыки</h2>
+        </article>
+        <article class="projects block" id="projects">
+          <h2 class="block__subtitle fro">Портфолио</h2>
+          <ul class="projects__types">
+            <li class="projects__category fyk">
+              <button class="btn projects__button projects__button--active">Все проекты</button>
+            </li>
+            <li class="projects__category fyk">
+              <button class="btn projects__button">Учебные проекты</button>
+            </li>
+            <li class="projects__category fyk">
+              <button class="btn projects__button">Реальные проекты</button>
+            </li>
+          </ul>
+          <ul class="projects__list">
+            <li class="projects__box fyk">
+                  <h3 class="projects-name">RIZOR</h3>
+                  <a href="https://gilrann.github.io/rizor/" class="projects__link">
+                    <div class="projects__view projects__001"></div>
+                  </a>
+                </li>
+            <li class="projects__box fyk">
+                  <h3 class="projects-name">RIZOR</h3>
+                  <a href="https://gilrann.github.io/rizor/" class="projects__link">
+                    <div class="projects__view projects__001"></div>
+                  </a>
+                </li>
+            <li class="projects__box fyk">
+                  <h3 class="projects-name">RIZOR</h3>
+                  <a href="https://gilrann.github.io/rizor/" class="projects__link">
+                    <div class="projects__view projects__001"></div>
+                  </a>
+                </li>
+          </ul>
         </article>
         <article class="thx block" id="thx">
-          <h2 class="block__subtitle fyk">Мои благодарности</h2>
-          <div class="aboutme__photo">
-            <img class="aboutme__pic" src="img/photo.jpg" alt="Моё фото">
-          </div>
-          <div class="aboutme__info">
-            <table class="aboutme__table">
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Моё имя:</td>
-                <td class="aboutme__answer fyk">Полина Gilrann Арефьева</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Мой возраст:</td>
-                <td class="aboutme__answer fyk">средний</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Мой город:</td>
-                <td class="aboutme__answer fyk">Новосибирск</td>
-              </tr>
-              <tr class="aboutme__line">
-                <td class="aboutme__question fyk">Сфера интересов:</td>
-                <td class="aboutme__answer fyk">вёрстка, фронтенд</td>
-              </tr>
-            </table>
-          </div>
+          <h2 class="block__subtitle fro">Мои благодарности</h2>
+        </article>
+        <article class="contacts block" id="contacts">
+          <h2 class="block__subtitle fro">Контакты</h2>
+
         </article>
 
     </main>
