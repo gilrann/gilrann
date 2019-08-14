@@ -7,7 +7,7 @@
 	font-weight: 900;
 	font-style: normal;
 }
- 
+
 @font-face {
 	font-family: 'Source Sans Pro';
 	src:
@@ -258,7 +258,7 @@ html {
 
 .block {
   margin: 0;
-	padding: 5vw;
+  padding: 5vw;
   display: flex;
   flex-direction: column;
 }
@@ -545,16 +545,17 @@ html {
 
 .contacts {
   /*! background-color: #907bbc66; */
-	align-items: center;
+  /* align-items: center; */
   margin-bottom: 4rem;
 }
 
 .contacts__form {
 	display: flex;
 	align-items: center;
-	width: 100%;
+	/* width: 100%; */
 	/*! min-width: 600px; */
 	flex-wrap: wrap;
+	margin: 0 auto;
 }
 .form__field {
 	width: 100%;
@@ -615,7 +616,7 @@ input, textarea, select {
   position: fixed;
   left:0;
   bottom:0;
-  width: 40px;
+  width: 350px;
   color: #ffffff;
 }
 
@@ -703,7 +704,7 @@ input, textarea, select {
   .sitehead__logo {display: flex;flex-direction: column;padding: 0;padding-top: 1rem;}
   .sitehead__img {position: relative;top: auto;left: auto;right: auto;}
   .sitehead__menu {}
-  .img50 {width: 34px;height: 34px;}
+  .img50 {width: 34px;height: 34px; margin: 0 auto;}
   .sitehead__title {display: none;}
   .sitehead__item a {display: block;padding: 0;padding-bottom: 1rem;}
 	.sitehead__item svg {position: relative;right: auto;width: 34px;}
@@ -726,7 +727,7 @@ input, textarea, select {
   .skills p:last-of-type {margin-bottom: 1rem;padding-bottom: 1rem;}
   .contacts {padding: 2rem 1rem;}
   .form__item {margin: 0 0 2rem;}
-  .social {}
+  .social {width: 40px;}
   .social__list {display: block;padding: 5px 0;text-align: center;/*! border-top: dashed 2px #ffffff80; */}
 	.copyright {width: calc(100% - 40px);font-size: 0.7rem;padding: 1rem;flex-direction: column;}
   .copyright span {flex-grow: 1;margin-bottom: 5px;display: flex;}
