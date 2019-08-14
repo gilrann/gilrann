@@ -7,7 +7,7 @@
 	font-weight: 900;
 	font-style: normal;
 }
-
+ 
 @font-face {
 	font-family: 'Source Sans Pro';
 	src:
@@ -706,7 +706,7 @@ input, textarea, select {
   .sitehead__menu {}
   .img50 {width: 34px;height: 34px; margin: 0 auto;}
   .sitehead__title {display: none;}
-  .sitehead__item a {display: block;padding: 0;padding-bottom: 1rem;}
+  .sitehead__item a {display: block;padding: 0.5rem 0;}
 	.sitehead__item svg {position: relative;right: auto;width: 34px;}
   .sitehead__item span {display: none;}
   .sitehead__text {display: none;}
