@@ -7,7 +7,7 @@
 	font-weight: 900;
 	font-style: normal;
 }
- 
+
 @font-face {
 	font-family: 'Source Sans Pro';
 	src:
@@ -261,6 +261,7 @@ html {
   padding: 5vw;
   display: flex;
   flex-direction: column;
+	height: 100vh;
 }
 
 .darkblock {
@@ -350,6 +351,8 @@ html {
 .projects {
   background-color: #907BBC22;
   align-items: center;
+	height: auto;
+	min-height: 100vh;
 }
 
 .projects__types {
@@ -547,6 +550,7 @@ html {
   /*! background-color: #907bbc66; */
   /* align-items: center; */
   margin-bottom: 4rem;
+
 }
 
 .contacts__form {
