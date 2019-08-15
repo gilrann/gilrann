@@ -261,7 +261,7 @@ html {
   padding: 5vw;
   display: flex;
   flex-direction: column;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .darkblock {
@@ -352,7 +352,6 @@ html {
   background-color: #907BBC22;
   align-items: center;
 	height: auto;
-	min-height: 100vh;
 }
 
 .projects__types {
