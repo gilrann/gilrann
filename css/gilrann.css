@@ -7,7 +7,7 @@
 	font-weight: 900;
 	font-style: normal;
 }
-
+ 
 @font-face {
 	font-family: 'Source Sans Pro';
 	src:
@@ -364,17 +364,15 @@ html {
 	max-width: 1400px;
 	justify-content: center;
 	flex-wrap: wrap;
-	font-size: 1rem;
 }
 
 .projects__category {
-	font-size: 1rem;
   line-height: 2rem;
 	margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .projects__category:last-of-type {
-	margin-right: 0;
 }
 
 .projects__button {
@@ -470,7 +468,7 @@ html {
 	display: flex;
 	flex-shrink: 0;
 	justify-content: space-around;
-	width: 60vw;
+	width: 50vw;
 	flex-wrap: wrap;
 }
 
@@ -680,14 +678,15 @@ input, textarea, select {
 	.sitehead__item svg {position: absolute;right: 1rem;}
   .content {margin-left: 25%;}
 	.projects__types {}
-  .projects__category {}
+  .projects__category {margin-bottom: 1rem;}
+  .projects__category:nth-child(even){}
 	.projects__list {display: block;}
 	.projects__box {width: auto;}
 	.skills__item {width: 10vw;height: 10vw;border-width: 5px;}
 	.skills__item::before {top: 30%;left: 35%;}
 	.copyright {width: 75%;}
 }
-
+ 
 @media (max-width: 600px) {
   .sitehead {width: 40px;padding: 0;text-align: center;}
   .sitehead__logo {display: flex;flex-direction: column;padding: 0;padding-top: 1rem;}
@@ -704,8 +703,8 @@ input, textarea, select {
   .intro__text {width: auto;padding: 1rem 1rem 0;}
   .btn__next {width: 200px;}
 	.projects__types {justify-content: space-around;}
-  .projects__category {margin: 0;display: flex;}
-  .projects__button {width: 90px;font-size: 0.8rem;box-sizing: border-box;min-width: 90px;}
+  .projects__category {display: flex;margin-bottom: 1rem;margin-right: 0;}
+  .projects__button {width: 90px;font-size: 0.7rem;box-sizing: border-box;min-width: 90px;}
 	.projects__list {display: block;}
 	.projects__box {width: auto;}
   .skills {padding: 1rem;}
