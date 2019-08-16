@@ -65,17 +65,20 @@
           <h2 class="block__subtitle ">Портфолио</h2>
           <ul class="projects__types">
             <li class="projects__category">
-              <button class="btn projects__button projects__button--active">Все проекты</button>
+              <button class="btn projects__button f-all">Все <br>проекты</button>
             </li>
             <li class="projects__category">
-              <button class="btn projects__button">Учебные проекты</button>
+              <button class="btn projects__button f-learning">Учебные <br>проекты</button>
             </li>
             <li class="projects__category">
-              <button class="btn projects__button">Реальные проекты</button>
+              <button class="btn projects__button f-training">Тренировочные <br>проекты</button>
+            </li>
+            <li class="projects__category">
+              <button class="btn projects__button f-real">Реальные <br>проекты</button>
             </li>
           </ul>
           <div class="projects__list">
-            <div class="projects__box ">
+            <div class="projects__box training">
               <header class="projects__wrapper">
                 <h3 class="projects__name">Rizor</h3>
                 <p class="projects__text">Тренировочный проект HTMLAcademy</p>
@@ -85,7 +88,7 @@
                 <img class="projects__view" src="img/rizor.jpg" alt="RIZOR">
               </a>
             </div>
-            <div class="projects__box ">
+            <div class="projects__box training">
               <header class="projects__wrapper">
                 <h3 class="projects__name">I am woman</h3>
                 <p class="projects__text">Тренировочный проект HTMLAcademy</p>
@@ -95,7 +98,7 @@
                 <img class="projects__view" src="img/iamwoman.jpg" alt="I AM WOMAN">
               </a>
             </div>
-            <div class="projects__box ">
+            <div class="projects__box learning">
               <header class="projects__wrapper">
                 <h3 class="projects__name">Device</h3>
                 <p class="projects__text">Учебный проект HTMLAcademy</p>
@@ -118,15 +121,16 @@
           <ul class="skills__list">
             <li class="skills__box ">
               <h3 class="skills__name">HTML5</h3>
-              <div class="skills__item s50"></div>
+              <div class="skills__circle" id="circles-1"></div>
+
             </li>
             <li class="skills__box ">
               <h3 class="skills__name">CSS3</h3>
-              <div class="skills__item s50"></div>
+              <div class="skills__circle" id="circles-2"></div>
             </li>
             <li class="skills__box ">
               <h3 class="skills__name">JS</h3>
-              <div class="skills__item s25"></div>
+              <div class="skills__circle" id="circles-3"></div>
             </li>
           </ul>
         </section>
@@ -190,8 +194,9 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="js/circles.js"></script>
   <script type="text/javascript" src="js/gilrann.js"></script>
-  <!-- <script type="text/javascript" src="js/jquery.fullPage.min.js"></script> -->
+
 
 </body>
 
