@@ -471,6 +471,7 @@ html {
 	flex-shrink: 0;
 	justify-content: space-around;
 	width: 60vw;
+	flex-wrap: wrap;
 }
 
 .skills__box {

@@ -30,7 +30,7 @@ function slowScroll(id) {
 var myCircle = Circles.create({
   id:                  'circles-1',
   radius:              80,
-  value:               65,
+  value:               75,
   maxValue:            100,
   width:               15,
   text:                function(value){return value + '%';},
@@ -47,7 +47,7 @@ var myCircle = Circles.create({
 var myCircle = Circles.create({
   id:                  'circles-2',
   radius:              80,
-  value:               80,
+  value:               75,
   maxValue:            100,
   width:               15,
   text:                function(value){return value + '%';},
