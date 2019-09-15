@@ -7,7 +7,7 @@
 	font-weight: 900;
 	font-style: normal;
 }
- 
+
 @font-face {
 	font-family: 'Source Sans Pro';
 	src:
@@ -686,7 +686,7 @@ input, textarea, select {
 	.skills__item::before {top: 30%;left: 35%;}
 	.copyright {width: 75%;}
 }
- 
+
 @media (max-width: 600px) {
   .sitehead {width: 40px;padding: 0;text-align: center;}
   .sitehead__logo {display: flex;flex-direction: column;padding: 0;padding-top: 1rem;}
