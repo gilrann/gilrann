@@ -9,22 +9,22 @@ function slowScroll(id) {
 
 
 
-     // var fActive='';
-     // function filterColor(color){
-     // if(fActive!=color){
-     // 	$('.projects__box').filter('.'+color).slideDown(600);
-     // 	$('.projects__box').filter(':not(.'+color+')').slideUp(600);fActive=color;}
-     // }
-     // 	$('.f-learning').click(function(){filterColor('learning');});
-     // 	$('.f-training').click(function(){filterColor('training');});
-     // 	$('.f-real').click(function(){filterColor('real');});
-     // 	$('.f-all').click(function(){$('div').slideDown();fActive='all';});
-     //
-     //
-     //
-     //  $(function() {
-     //          $(".skills_r_item").knob();
-     //      });
+     var fActive='';
+     function filterColor(color){
+     if(fActive!=color){
+     	$('.projects__box').filter('.'+color).slideDown(600);
+     	$('.projects__box').filter(':not(.'+color+')').slideUp(600);fActive=color;}
+     }
+     	$('.f-learning').click(function(){filterColor('learning');});
+     	$('.f-training').click(function(){filterColor('training');});
+     	$('.f-real').click(function(){filterColor('real');});
+     	$('.f-all').click(function(){$('div').slideDown();fActive='all';});
+
+
+
+      $(function() {
+              $(".skills_r_item").knob();
+          });
 
 
 var myCircle = Circles.create({
