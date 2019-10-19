@@ -6,9 +6,7 @@ function slowScroll(id) {
          return false;
      }
 
-
-
-
+  
      var fActive='';
      function filterColor(color){
      if(fActive!=color){
