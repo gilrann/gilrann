@@ -6,7 +6,7 @@ function slowScroll(id) {
          return false;
      }
 
-  
+
      var fActive='';
      function filterColor(color){
      if(fActive!=color){
@@ -28,7 +28,7 @@ function slowScroll(id) {
 var myCircle = Circles.create({
   id:                  'circles-1',
   radius:              80,
-  value:               75,
+  value:               85,
   maxValue:            100,
   width:               15,
   text:                function(value){return value + '%';},
@@ -45,7 +45,7 @@ var myCircle = Circles.create({
 var myCircle = Circles.create({
   id:                  'circles-2',
   radius:              80,
-  value:               75,
+  value:               80,
   maxValue:            100,
   width:               15,
   text:                function(value){return value + '%';},
@@ -62,7 +62,7 @@ var myCircle = Circles.create({
 var myCircle = Circles.create({
   id:                  'circles-3',
   radius:              80,
-  value:               25,
+  value:               30,
   maxValue:            100,
   width:               15,
   text:                function(value){return value + '%';},

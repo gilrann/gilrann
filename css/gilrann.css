@@ -541,12 +541,12 @@ html {
 }
 
 .form__item {
-	margin:2rem 2rem 0 0;
+	margin:2rem 0 0 0;
 	background-color: #fff9;
-	flex-grow: 1;
 	border-radius: 0.35rem;
 	border: solid 1px #00000026;
 	padding: 0.75rem 1rem;
+	width: 40%;
 }
 
 input, textarea, select {
@@ -569,7 +569,7 @@ input, textarea, select {
 
 #yourname {}
 #youremail {}
-#yourmessage {}
+#yourmessage {flex-grow: 1;}
 
 .btn__sendmessage {
 	color: #ffffff;
@@ -656,6 +656,7 @@ input, textarea, select {
   /*! width: calc(100% - 375px); */
   box-sizing: border-box;
   flex-grow: 1;
+  font-size: 0.8rem;
 }
 
 .copyright__label {
