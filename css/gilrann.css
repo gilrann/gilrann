@@ -705,6 +705,25 @@ input, textarea, select {
   }
 }
 
+@media (max-width: 1200px) {
+	.sitehead {
+		width: 320px;
+	}
+	.content {
+		margin-left: 320px;
+	}
+	.sidebottom {
+		margin-left: 320px;
+	}
+	.projects__name {
+		font-size: 1rem;
+	}
+	.projects__text {
+		font-size: 0.8rem;
+	}
+
+}
+
 @media (max-width: 860px) {
   .sitehead {
     width: 25%;
@@ -752,7 +771,7 @@ input, textarea, select {
   }
 
   .projects__box {
-    /*! width: auto; */
+    width: 48%;
     flex-shrink: 0;
     overflow: hidden;
   }
@@ -835,7 +854,7 @@ input, textarea, select {
 
   .intro__text {
     width: auto;
-    padding: 1rem 1rem 0;
+    padding: 1rem 2.5rem 0;
   }
 
   .btn__next {
@@ -853,8 +872,8 @@ input, textarea, select {
   }
 
   .projects__button {
-    width: 90px;
-    font-size: 0.7rem;
+    width: 12rem;
+    font-size: 1rem;
     box-sizing: border-box;
     min-width: 90px;
   }
@@ -867,8 +886,16 @@ input, textarea, select {
     width: auto;
   }
 
+	.projects__name {
+		font-size: 1.5rem;
+	}
+
+	.projects__text {
+		font-size: 1rem;
+	}
+
   .skills {
-    padding: 1rem;
+    padding: 15vw;
   }
 
   .skills__list {
@@ -897,7 +924,7 @@ input, textarea, select {
   }
 
   .contacts {
-    padding: 2rem 1rem;
+    padding: 2rem;
   }
 
   .form__item {
@@ -907,6 +934,10 @@ input, textarea, select {
   .social {
     width: 40px;
   }
+
+	.sidebottom {
+	  margin-left: 40px;
+	}
 
   .social__list {
     display: block;
