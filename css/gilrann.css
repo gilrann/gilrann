@@ -700,12 +700,15 @@ input, textarea, select {
 
 @media (max-width: 1400px) {
   html {
-    font-size: 16px;
+    font-size: 20px;
     overflow-x: hidden;
   }
 }
 
 @media (max-width: 1200px) {
+	html {
+    font-size: 18px;
+  }
 	.sitehead {
 		width: 320px;
 	}
@@ -725,6 +728,9 @@ input, textarea, select {
 }
 
 @media (max-width: 860px) {
+	html {
+    font-size: 16px;
+  }
   .sitehead {
     width: 25%;
   }
@@ -793,6 +799,7 @@ input, textarea, select {
 }
 
 @media (max-width: 600px) {
+
   .sitehead {
     width: 40px;
     padding: 0;
@@ -849,7 +856,7 @@ input, textarea, select {
   }
 
   .intro {
-    padding: 80px 1rem 1rem;
+    padding: 34px 0.5rem 0.5rem;
   }
 
   .intro__text {
@@ -957,5 +964,42 @@ input, textarea, select {
     flex-grow: 1;
     margin-bottom: 5px;
     display: flex;
+    /*! flex-flow: column; */
   }
+}
+
+@media (max-width: 460px) {
+	.block__subtitle {
+		font-size: 1.3rem;
+		margin-bottom: 1rem;
+	}
+	.intro__text {padding: 0.5rem;}
+	.sitehead__logo {margin-left: 3px;margin-top: 34px;padding-top: 0;}
+
+	.projects__name {
+    font-size: 1rem;
+	}
+	.projects__text {
+    font-size: 0.8rem;
+	}
+	.projects__box {
+    height: 40vh;
+	}
+
+	.skills {
+    padding: 5vw;
+	}
+
+	.contacts {
+		padding: 5vw;
+	}
+
+	.form__item {
+  width: 100%;
+	}
+
+	.copyright__thanks {
+		flex-direction: column;
+	}
+
 }
