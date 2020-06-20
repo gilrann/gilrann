@@ -337,7 +337,7 @@ html {
 .projects__category:last-of-type {}
 
 .projects__button {
-  width: 10rem;
+  width: 9rem;
   color: #666666;
   background: transparent;
   min-width: 120px;
@@ -375,6 +375,7 @@ html {
   border: solid #666 1px;
   border-radius: 0.35rem;
   height: 30vh;
+  overflow: hidden;
 }
 
 .projects__wrapper {
@@ -384,7 +385,6 @@ html {
   width: 100%;
   background-color: #ffffff;
   border-radius: 0.35rem;
-  /*! max-height: 50%; */
   flex-shrink: 0;
 }
 
@@ -394,12 +394,13 @@ html {
   text-align: center;
   font-weight: 300;
   margin-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .projects__text {
   margin: 0 1rem;
   padding: 0;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   font-weight: 200;
 }
 
@@ -412,6 +413,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  border-top-left-radius: 0.35rem;
+  border-top-right-radius: 0.35rem;
 }
 .rizor {
 	background-image: url(../img/project__posters/rizor.jpg);
