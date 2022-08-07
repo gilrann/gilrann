@@ -646,6 +646,7 @@ html {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: auto 5rem;
+  position: relative;
 }
 
 .content {
@@ -709,6 +710,9 @@ html {
   background-color: #222629;
   color: #ffffff;
   text-align: right;
+  position: fixed;
+  width: 25%;
+  height: 100vw;
 }
 
 .sitehead__logo {
