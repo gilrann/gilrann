@@ -1,0 +1,179 @@
+.projects {
+    background-color: $back4;
+    align-items: center;
+    height: auto;
+}
+
+.projects__types {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects__category {
+    line-height: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects__category:last-of-type {}
+
+.projects__button {
+    width: 9rem;
+    color: $elemadd;
+    background: transparent;
+    min-width: 120px;
+    font-size: inherit;
+    border: solid $elemadd 1px;
+}
+
+.projects__button--active {
+    color: $elemmain;
+    border: 1px $borcolor solid;
+    background: $borcolor;
+}
+
+.projects__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    max-width: $xxl;
+}
+
+.projects__box {
+    @extend %flexdefolt;
+    align-items: center;
+    background-color: $white;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    width: 85%;
+    border: solid $elemadd 1px;
+    border-radius: 0.35rem;
+    min-height: 10rem;
+    overflow: hidden;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.projects__wrapper {
+    margin: 1rem 0;
+    order: 1;
+    box-shadow: 0 0.1rem 0.6rem 0.001rem #00000011;
+    width: 100%;
+    background-color: $white;
+    border-radius: 0.35rem;
+    flex-shrink: 0;
+}
+
+.projects__name {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.projects__text {
+    margin: 0 1rem;
+    padding: 0;
+    font-size: 0.5rem;
+    font-weight: 200;
+}
+
+.projects__link {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: url(../img/project__posters/cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+}
+
+.rizor {
+    background-image: url(../img/project__posters/rizor.jpg);
+}
+
+.iamwoman {
+    background-image: url(../img/project__posters/iamwoman.jpg);
+}
+
+.device {
+    background-image: url(../img/project__posters/device.jpg);
+}
+
+.musicjd {
+    background-image: url(../img/project__posters/jdp.jpg);
+}
+
+.ghostbusters {
+    background-image: url(../img/project__posters/ghostbusters.jpg);
+    background-size: cover;
+}
+
+.projects__view {
+    width: 100%;
+    border-radius: 0.35rem;
+    align-self: center;
+    overflow: hidden;
+}
+
+.projects__001 {
+    background-image: url("../img/rizor.jpg");
+}
+
+.projects__002 {
+    background-image: url("../img/iamwoman.jpg");
+}
+
+.projects__003 {
+    background-image: url("../img/device.jpg");
+}
+
+@media (max-width: $xxl) {}
+
+@media (max-width: $xl) {
+    .projects__name {
+        font-size: 0.7rem;
+    }
+
+    .projects__wrapper {
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: $lg) {
+    .projects__list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: $md) {}
+
+@media (max-width: $sm) {}
+
+@media (max-width: $xs) {
+    .projects__types {
+        justify-content: space-around;
+    }
+
+    .projects__category {
+        margin-right: 0;
+    }
+
+    .projects__button {
+        line-height: 1.5;
+    }
+}

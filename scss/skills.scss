@@ -1,0 +1,92 @@
+.skills {
+    background-color: $back3;
+    align-items: center;
+}
+
+.skills__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    width: 50vw;
+    flex-wrap: wrap;
+}
+
+.skills__box {
+    @extend %flexdefolt;
+}
+
+.skills__name {
+    margin: 0.5rem;
+    padding: 0;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.skills__item {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+}
+
+.skills_r_item datalist {
+    readOnly: true;
+    linecap: round;
+    thickness: 0.2;
+}
+
+.skills__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    @include hyphens(auto);
+    line-height: 2rem;
+}
+
+.skills p:last-of-type {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.circles-wrp {
+    position: relative;
+}
+
+.circles-text {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: auto;
+    color: $circolor;
+}
+
+.circles-valueStroke {
+    stroke: $circolor;
+}
+
+.circles-maxValueStroke {
+    stroke: $circolor2;
+}
+
+@media (max-width: $xxl) {
+  .circles-text {
+    left: 41%;
+  }
+}
+
+@media (max-width: $xl) {}
+
+@media (max-width: $lg) {
+  .circles-text {
+    font-size: 2rem;
+    top: 35%;
+    left: 35%;
+  }
+}
+
+@media (max-width: $md) {}
+
+@media (max-width: $sm) {}
+
+@media (max-width: $xs) {}

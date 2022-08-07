@@ -1,0 +1,196 @@
+.sitehead {
+	@extend %flexdefolt;
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  background-color: $backside;
+  color: $elemmain;
+  text-align: right;
+}
+
+.sitehead__logo {
+  position: relative;
+  margin: 1.75rem 1.5rem;
+}
+
+.sitehead__img {
+  display: block;
+  position: absolute;
+  background-image: url("../img/prtrt.jpg");
+  background-size: cover;
+}
+
+.img50 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.sitehead__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.sitehead__text {
+  margin: 0;
+  padding: 0;
+  font-size: 0.6rem;
+  line-height: 1.75rem;
+  color: $elemside;
+  margin-top: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.sitehead__menu {
+	padding: 0;
+}
+
+.sitehead__item {
+  width: 100%;
+  position: relative;
+}
+
+.sitehead__item:active {
+  background-color: $backsidehover;
+}
+
+.sitehead__link {
+	@extend %flexdefolt;
+	flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  color: $elemside;
+  text-decoration: none;
+  font-weight: 300;
+  align-items: center;
+}
+
+.sitehead__link::before {
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-weight: 900;
+}
+
+.sitehead__link:hover {
+  color: $elemmain;
+}
+
+.sitehead__link:hover::before {
+  color: $elemhover;
+}
+
+.sitehead__item a:active {
+  color: $elemmain;
+}
+
+.sitehead__link:active::before {
+  color: $elemhover;
+}
+
+@media (max-width: $xxl) {}
+
+@media (max-width: $lg) {
+  .sitehead__logo {
+    padding-right: 1rem;
+  }
+
+  .sitehead__link {
+    padding: 1rem;
+  }
+
+  .sitehead__img {
+    top: 1rem;
+    left: auto;
+  }
+
+  .sitehead__title {
+		margin-top: 2rem;
+    margin-right: -0.5rem;
+    font-size: 1.5rem;
+  }
+  .sitehead__text {
+		margin-right: 0;
+		text-align: center;
+	}
+
+  .sitehead__item svg {
+    position: absolute;
+    right: 1rem;
+  }
+}
+
+@media (max-width: $md) {
+	.sitehead__logo {
+		margin: 1.75rem 0;
+		padding: 1rem;
+	}
+	.sitehead__title {
+    margin-top: 1.2rem;
+    margin-right: 0;
+    font-size: 1rem;
+	}
+	.sitehead__text {
+		margin-right: 0;
+		text-align: center;
+	}
+	.sitehead__point {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: $sm) {
+	.sitehead {
+    padding: 0;
+    text-align: center;
+  }
+
+  .sitehead__logo {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 1rem;
+  }
+
+  .sitehead__img {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .img50 {
+    width: 34px;
+    height: 34px;
+    margin: 0 auto;
+  }
+
+  .sitehead__title {
+    display: none;
+  }
+
+  .sitehead__item a {
+    display: block;
+    padding: 0.5rem 0;
+  }
+
+  .sitehead__item svg {
+    position: relative;
+    right: auto;
+    width: 34px;
+  }
+
+  .sitehead__item span {
+    display: none;
+  }
+
+  .sitehead__text {
+    display: none;
+  }
+}
+
+@import 'social';

@@ -1,0 +1,63 @@
+// минимальная и максимальная ширина области просмотра
+$min-w: 460px;
+$max-w: 1900px;
+
+// отступы
+$spacer-base: 30px;
+
+$spacer-xxs: 0.25 * $spacer-base;
+$spacer-xs: 0.5 * $spacer-base;
+$spacer-s: 0.75 * $spacer-base;
+$spacer-m: $spacer-base;
+$spacer-l: 1.5 * $spacer-base;
+$spacer-xl: 2 * $spacer-base;
+$spacer-xxl: 2.25 * $spacer-base;
+
+// размеры шрифтов
+$fs-base: 25px;
+
+$fs-xs: 0.5 * $fs-base;
+$fs-s: 0.6 * $fs-base;
+$fs-m: 0.8 * $fs-base;
+$fs-l: $fs-base;
+$fs-xl: 1.2 * $fs-base;
+$fs-xxl: 1.5 * $fs-base;
+$fs-xxxl: 2 * $fs-base;
+$vlg: 2.5 * $fs-base;
+
+// цвета
+$backbase: #000000;
+$backside: #222629;
+$backsidehover:#1b2023;
+$back1: #81918E;
+$back2:#e8edec;
+$back3:#ecf1f1;
+$back4:#f5fafa;
+
+$butnorm: #8ebebc;
+$buthover: #9ececc;
+
+
+$elemmain: #ffffff;
+$elemside: rgba(255, 255, 255, 0.8);
+$elemadd: #666666;
+$elemhover: #e27689;
+
+$borcolor: #452d79;
+$circolor: #e4524f;
+$circolor2:rgba(69, 45, 121, 0.3);
+$inpcolor: rgba(0, 0, 0, 0.8);
+
+
+// дополнительно
+$white: #ffffff;
+$black: #000000;
+
+// контрольные точки
+$xs: 460px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1280px;
+$xxl: 1400px;
+$xxxl: 1900px;

@@ -2,212 +2,202 @@
 <html lang="ru" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/gilrann.css">
-  <link rel="stylesheet" href="css/all.css">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <title>Gilrann</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Gilrann</title>
 </head>
 
 <body class="all-about">
-  <div class="sitesystem">
-    <header class="sitehead">
-      <div class="sitehead__logo">
-        <span class="sitehead__img img50"></span>
-        <h1 class="sitehead__title ">Gilrann</h1>
-        <p class="sitehead__text ">Freelance. Site-building.</p>
-      </div>
-      <ul class="sitehead__menu" id="menu">
-        <li class="sitehead__item">
-          <a href="#intro" class="sitehead__link solid fa-home" onclick="slowScroll('#intro')">
-            <span class="sitehead__point">Приветствие</span>
-          </a>
-        </li>
-        <li class="sitehead__item">
-          <a href="#projects" class="sitehead__link solid fa-th" onclick="slowScroll('#projects')">
-            <span class="sitehead__point">Портфолио</span>
-          </a>
-        </li>
-        <li class="sitehead__item">
-          <a href="#skills" class="sitehead__link solid fa-user" onclick="slowScroll('#skills')">
-            <span class="sitehead__point">Обо мне</span>
-          </a>
-        </li>
-        <li class="sitehead__item">
-          <a href="#contacts" class="sitehead__link solid fa-envelope" onclick="slowScroll('#contacts')">
-            <span class="sitehead__point">Напишите мне</span>
-          </a>
-        </li>
-      </ul>
-    </header>
-    <!-- end header -->
-
-    <main class="content" id="fullpage">
-        <section class="intro block darkblock" id="intro">
-          <h2 class="block__subtitle ">
-          Привет! Я <strong>Gilrann</strong>, и эта страничка призвана отразить <br>мои успехи в сайтостроении
-          </h2>
-          <p class="intro__text intro__text--1">
-            Здесь вы можете увидеть примеры моих работ, узнать кое-что обо мне, а также написать мне, если вам (не-)понравилось увиденное, высказать своё мнение,  оставить рекомендации или (чем чёрт не шутит) заказ.
-          </p>
-          <p class="intro__text intro__text--2">
-            Ниже представлены опыты в сфере HTML5, CSS3 и (немного) JS.
-          </p>
-          <button type="button" name="toportfolio" class="btn btn__next btn-to-portfolio" onclick="slowScroll('#projects')">К портфолио</button>
-        </section>
-        <section class="projects block lightblock" id="projects">
-          <h2 class="block__subtitle ">Портфолио</h2>
-          <ul class="projects__types">
-            <li class="projects__category">
-              <button class="btn projects__button f-all">Все <br>проекты</button>
-            </li>
-            <li class="projects__category">
-              <button class="btn projects__button f-learning">Учебные <br>проекты</button>
-            </li>
-            <li class="projects__category">
-              <button class="btn projects__button f-training">Тренировочные <br>проекты</button>
-            </li>
-            <li class="projects__category">
-              <button class="btn projects__button f-real">Реальные <br>проекты</button>
-            </li>
-          </ul>
-          <div class="projects__list">
-            <div class="projects__box training">
-              <header class="projects__wrapper">
-                <h3 class="projects__name">Rizor</h3>
-                <p class="projects__text">Тренировочный проект HTMLAcademy</p>
-                <p class="projects__text">Адаптивная вёрстка</p>
-              </header>
-              <a href="https://gilrann.github.io/rizor/" class="projects__link rizor"></a>
+    <div class="sitesystem">
+        <header class="sitehead">
+            <div class="sitehead__logo">
+                <span class="sitehead__img img50"></span>
+                <h1 class="sitehead__title ">Gilrann</h1>
+                <p class="sitehead__text ">Freelance. Site-building.</p>
             </div>
-            <div class="projects__box training">
-              <header class="projects__wrapper">
-                <h3 class="projects__name">I am woman</h3>
-                <p class="projects__text">Тренировочный проект HTMLAcademy</p>
-                <p class="projects__text">Адаптивная вёрстка</p>
-              </header>
-              <a href="https://gilrann.github.io/iamwoman/" class="projects__link iamwoman"></a>
+            <ul class="sitehead__menu" id="menu">
+                <li class="sitehead__item">
+                    <a href="#intro" class="sitehead__link solid fa-home" onclick="slowScroll('#intro')">
+                        <span class="sitehead__point">Приветствие</span>
+                    </a>
+                </li>
+                <li class="sitehead__item">
+                    <a href="#projects" class="sitehead__link solid fa-th" onclick="slowScroll('#projects')">
+                        <span class="sitehead__point">Портфолио</span>
+                    </a>
+                </li>
+                <li class="sitehead__item">
+                    <a href="#skills" class="sitehead__link solid fa-user" onclick="slowScroll('#skills')">
+                        <span class="sitehead__point">Обо мне</span>
+                    </a>
+                </li>
+                <li class="sitehead__item">
+                    <a href="#contacts" class="sitehead__link solid fa-envelope" onclick="slowScroll('#contacts')">
+                        <span class="sitehead__point">Напишите мне</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link fb fab fa-facebook" href="https://www.facebook.com/satai.gilrann">
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link vk fab fa-vk" href="https://vk.com/id556563849">
+                            <span>ВКонтакте</span>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link tw fab fa-twitter" href="https://twitter.com/satai_Gilrann">
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link email solid fa-envelope" href="mailto:gilrann.mir@gmail.com">
+                            <span>E-mail</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="projects__box learning">
-              <header class="projects__wrapper">
-                <h3 class="projects__name">Device</h3>
-                <p class="projects__text">Учебный проект HTMLAcademy</p>
-                <p class="projects__text">Фиксированная вёрстка</p>
-              </header>
-              <a href="https://gilrann.github.io/device/" class="projects__link device"></a>
+        </header>
+        <!-- end header -->
+        <main class="content" id="fullpage">
+            <section class="intro block darkblock" id="intro">
+                <h2 class="block__subtitle ">
+                    Привет! Я <strong>Gilrann</strong>, и эта страничка призвана отразить <br>мои успехи в сайтостроении
+                </h2>
+                <p class="intro__text intro__text--1">
+                    Здесь вы можете увидеть примеры моих работ, узнать кое-что обо мне, а также написать мне, если вам (не-)понравилось увиденное, высказать своё мнение, оставить рекомендации или (чем чёрт не шутит) заказ.
+                </p>
+                <p class="intro__text intro__text--2">
+                    Ниже представлены опыты в сфере HTML5, CSS3 и (немного) JS.
+                </p>
+                <button type="button" name="toportfolio" class="btn btn__next btn-to-portfolio" onclick="slowScroll('#projects')">К портфолио</button>
+            </section>
+            <section class="projects block lightblock" id="projects">
+                <h2 class="block__subtitle ">Портфолио</h2>
+                <ul class="projects__types">
+                    <li class="projects__category">
+                        <button class="btn projects__button f-all">Все <br>проекты</button>
+                    </li>
+                    <li class="projects__category">
+                        <button class="btn projects__button f-learning">Учебные <br>проекты</button>
+                    </li>
+                    <li class="projects__category">
+                        <button class="btn projects__button f-training">Тренировочные <br>проекты</button>
+                    </li>
+                    <li class="projects__category">
+                        <button class="btn projects__button f-real">Реальные <br>проекты</button>
+                    </li>
+                </ul>
+                <div class="projects__list">
+                    <a href="https://gilrann.github.io/rizor/" class="projects__box training">
+                        <header class="projects__wrapper">
+                            <h3 class="projects__name">Rizor</h3>
+                            <p class="projects__text">Тренировочный проект HTMLAcademy</p>
+                            <p class="projects__text">Адаптивная вёрстка</p>
+                        </header>
+                        <div class="projects__link rizor"></div>
+                    </a>
+                    <div class="projects__box training">
+                        <header class="projects__wrapper">
+                            <h3 class="projects__name">I am woman</h3>
+                            <p class="projects__text">Тренировочный проект HTMLAcademy</p>
+                            <p class="projects__text">Адаптивная вёрстка</p>
+                        </header>
+                        <a href="https://gilrann.github.io/iamwoman/" class="projects__link iamwoman"></a>
+                    </div>
+                    <div class="projects__box learning">
+                        <header class="projects__wrapper">
+                            <h3 class="projects__name">Device</h3>
+                            <p class="projects__text">Учебный проект HTMLAcademy</p>
+                            <p class="projects__text">Фиксированная вёрстка</p>
+                        </header>
+                        <a href="https://gilrann.github.io/device/" class="projects__link device"></a>
+                    </div>
+                    <div class="projects__box training">
+                        <header class="projects__wrapper">
+                            <h3 class="projects__name">John Doe Productions</h3>
+                            <p class="projects__text">Тренировочный проект HTMLAcademy</p>
+                            <p class="projects__text">Адаптивная вёрстка</p>
+                        </header>
+                        <a href="https://gilrann.github.io/musicjd/" class="projects__link musicjd"></a>
+                    </div>
+                    <div class="projects__box real">
+                        <header class="projects__wrapper">
+                            <h3 class="projects__name">Ваш сайт</h3>
+                            <p class="projects__text">Здесь может быть ваш сайт</p>
+                            <p class="projects__text">Адаптивная вёрстка</p>
+                        </header>
+                        <a href="" class="projects__link"></a>
+                    </div>
+                    <div class="projects__box learning">
+                        <header class="projects__wrapper">
+                            <h3 class="projects__name">Охотники за привидениями: Наследники</h3>
+                            <p class="projects__text">Учебный проект Glo Academy</p>
+                            <p class="projects__text">Адаптивная вёрстка</p>
+                        </header>
+                        <a href="https://gilrann.github.io/ghostbusters/" class="projects__link ghostbusters"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="skills block lightblock" id="skills">
+                <h2 class="block__subtitle ">Обо мне</h2>
+                <p class="skills__text skills__text--1">
+                    Я занимаюсь HTML-вёрсткой сайтов, использую CSS3.
+                    В моем багаже учебный курс HTMLAcademy, несколько учебных и&nbsp;тренировочных&nbsp;проектов.<br>
+                    Планирую развиваться дальше, работая&nbsp;над&nbsp;реальными&nbsp;задачами.
+                </p>
+                <ul class="skills__list">
+                    <li class="skills__box ">
+                        <h3 class="skills__name">HTML5</h3>
+                        <div class="skills__circle" id="circles-1"></div>
+                    </li>
+                    <li class="skills__box ">
+                        <h3 class="skills__name">CSS3</h3>
+                        <div class="skills__circle" id="circles-2"></div>
+                    </li>
+                    <li class="skills__box ">
+                        <h3 class="skills__name">JS</h3>
+                        <div class="skills__circle" id="circles-3"></div>
+                    </li>
+                </ul>
+            </section>
+            <section class="contacts block lightblock" id="contacts">
+                <h2 class="block__subtitle ">Контакты</h2>
+                <form class="contacts__form" action="https://formspree.io/gilrann.mir@google.com" method="post" enctype="text/plain">
+                    <div class="form__field yourparameters">
+                        <input class="form__item form__data" id="yourname" type="text" name="yourname" placeholder="Имя" required>
+                        <input class="form__item form__data" id="youremail" type="email" name="youremail" placeholder="E-mail" required>
+                    </div>
+                    <div class="form__field yourword">
+                        <textarea class="form__item" id="yourmessage" name="yourmessage" rows="6" placeholder="Текст сообщения" required></textarea>
+                    </div>
+                    <div class="form__field yoursubmit">
+                        <input type="submit" name="button-submit" value="Отправить сообщение" class="btn btn__next btn__sendmessage">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <!-- end main -->
+        <footer class="sitebottom">
+            <div class="copyright">
+                <span class="copyright__label fa-copyright">Gilrann</span>
+                <span class="copyright__thanks">Дизайн - по мотивам "Prologue" на <a href="https://html5up.net/prologue">https://html5up.net</a></span>
             </div>
-            <div class="projects__box training">
-              <header class="projects__wrapper">
-                <h3 class="projects__name">John Doe Productions</h3>
-                <p class="projects__text">Тренировочный проект HTMLAcademy</p>
-                <p class="projects__text">Адаптивная вёрстка</p>
-              </header>
-              <a href="https://gilrann.github.io/musicjd/" class="projects__link musicjd"></a>
-            </div>
-            <div class="projects__box real">
-              <header class="projects__wrapper">
-                <h3 class="projects__name">Ваш сайт</h3>
-                <p class="projects__text">Здесь может быть ваш сайт</p>
-                <p class="projects__text">Адаптивная вёрстка</p>
-              </header>
-              <a href="" class="projects__link"></a>
-            </div>
-            <div class="projects__box learning">
-              <header class="projects__wrapper">
-                <h3 class="projects__name">Охотники за привидениями: Наследники</h3>
-                <p class="projects__text">Учебный проект Glo Academy</p>
-                <p class="projects__text">Адаптивная вёрстка</p>
-              </header>
-              <a href="https://gilrann.github.io/ghostbusters/" class="projects__link ghostbusters"></a>
-            </div>
-          </div>
-        </section>
-        <section class="skills block lightblock" id="skills">
-          <h2 class="block__subtitle ">Обо мне</h2>
-          <p class="skills__text skills__text--1">
-            Я занимаюсь HTML-вёрсткой сайтов, использую CSS3.
-            В моем багаже учебный курс HTMLAcademy, несколько учебных и тренировочных проектов.<br>
-            Планирую развиваться дальше, работая над реальными задачами.
-          </p>
-          <ul class="skills__list">
-            <li class="skills__box ">
-              <h3 class="skills__name">HTML5</h3>
-              <div class="skills__circle" id="circles-1"></div>
-            </li>
-            <li class="skills__box ">
-              <h3 class="skills__name">CSS3</h3>
-              <div class="skills__circle" id="circles-2"></div>
-            </li>
-            <li class="skills__box ">
-              <h3 class="skills__name">JS</h3>
-              <div class="skills__circle" id="circles-3"></div>
-            </li>
-          </ul>
-        </section>
-        <section class="contacts block lightblock" id="contacts">
-          <h2 class="block__subtitle ">Контакты</h2>
-
-          <form class="contacts__form" action="https://formspree.io/gilrann.mir@google.com" method="post"  enctype="text/plain">
-
-            <div class="form__field yourparameters">
-              <input class="form__item form__data" id="yourname" type="text" name="yourname" placeholder="Имя" required>
-              <input class="form__item form__data" id="youremail" type="email" name="youremail" placeholder="E-mail" required>
-            </div>
-
-            <div class="form__field yourword">
-              <textarea  class="form__item" id="yourmessage" name="yourmessage" rows="6" placeholder="Текст сообщения" required></textarea>
-            </div>
-
-            <div class="form__field yoursubmit">
-              <input type="submit" name="button-submit" value="Отправить сообщение" class="btn btn__next btn__sendmessage">
-            </div>
-          </form>
-
-        </section>
-    </main>
-    <!-- end main -->
-    <footer class="sidebottom">
-      <div class="social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link fb fab fa-facebook" href="https://www.facebook.com/satai.gilrann">
-              <span>Facebook</span>
-            </a>
-          </li>
-
-          <li class="social__item">
-            <a class="social__link vk fab fa-vk" href="https://vk.com/id556563849">
-              <span>ВКонтакте</span>
-            </a>
-          </li>
-
-          <li class="social__item">
-            <a class="social__link tw fab fa-twitter" href="https://twitter.com/satai_Gilrann">
-              <span>Twitter</span>
-            </a>
-          </li>
-
-          <li class="social__item">
-            <a class="social__link email solid fa-envelope"  href="mailto:gilrann.mir@gmail.com">
-              <span>E-mail</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <span class="copyright__label fa-copyright">Gilrann</span>
-        <span class="copyright__thanks">Дизайн - по мотивам "Prologue" на <a href="https://html5up.net/prologue">https://html5up.net</a></span>
-      </div>
-    </footer>
-    <!-- end footer -->
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-  <script src="js/circles.js"></script>
-  <script type="text/javascript" src="js/gilrann.js"></script>
-
-
+        </footer>
+        <!-- end footer -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/circles.js"></script>
+    <script type="text/javascript" src="js/gilrann.js"></script>
 </body>
 
 </html>

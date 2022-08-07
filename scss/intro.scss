@@ -1,0 +1,74 @@
+.intro {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    align-items: center;
+    padding: 10rem 5rem;
+    background-position: center center;
+
+    p:last-of-type {
+        margin-bottom: 2rem;
+    }
+}
+
+@mixin hyphens($property) {
+    -webkit-hyphens: $property;
+    -ms-hyphens: $property;
+    hyphens: $property;
+}
+
+.intro__text {
+    width: 60vw;
+    font-weight: 200;
+    @include hyphens(auto);
+    line-height: 2rem;
+}
+
+.btn__next {
+    width: 300px;
+    max-height: 200px;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.btn-to-portfolio {
+    border: 0;
+    color: $elemmain;
+    background: $butnorm;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $elemmain;
+        background: $buthover;
+    }
+}
+
+@media (max-width: $xxl) {}
+
+@media (max-width: $xl) {}
+
+@media (max-width: $lg) {}
+
+@media (max-width: $md) {
+    .intro {
+        padding: 34px 0.5rem 0.5rem;
+    }
+
+    .intro__text {
+        width: auto;
+        padding: 1rem 2.5rem 0;
+    }
+
+    .btn__next {
+        width: 200px;
+    }
+}
+
+@media (max-width: $sm) {}
+
+@media (max-width: $xs) {
+    .intro__text {
+        padding: 0.5rem;
+    }
+}

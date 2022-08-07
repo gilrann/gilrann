@@ -1,0 +1,55 @@
+.social {
+  position: fixed;
+  bottom: 0;
+  width: 25%;
+}
+
+.social__list {
+    margin: 0;
+    padding: 1.5rem 0 0.75rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social__list a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: #41484c;
+    outline: 0;
+    text-align: center;
+    border: 0;
+    transition: color 0.35s ease-in-out;
+
+    &:hover {
+        color: #ffffff;
+    }
+
+    &.solid:before {
+        font-weight: 900;
+    }
+
+    &.fab:before {
+        font-family: 'Font Awesome 5 Brands';
+    }
+
+}
+
+
+
+.social__item span {
+    display: none;
+}
+
+.social__link::before {
+    font-family: 'Font Awesome 5 Free';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-weight: 900;
+}
+
