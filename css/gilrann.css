@@ -1,79 +1,71 @@
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-SemiBold.eot'),
-    url('../fonts/SourceSansPro-SemiBold.ttf'),
-    url('../fonts/SourceSansPro-SemiBold.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-SemiBold.eot"),
+    url("../fonts/SourceSansPro-SemiBold.ttf"),
+    url("../fonts/SourceSansPro-SemiBold.woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-SemiBoldItalic.eot'),
-    url('../fonts/SourceSansPro-SemiBoldItalic.ttf'),
-    url('../fonts/SourceSansPro-SemiBoldItalic.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-SemiBoldItalic.eot"),
+    url("../fonts/SourceSansPro-SemiBoldItalic.ttf"),
+    url("../fonts/SourceSansPro-SemiBoldItalic.woff");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-Regular.eot'),
-    url('../fonts/SourceSansPro-Regular.ttf'),
-    url('../fonts/SourceSansPro-Regular.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.eot"),
+    url("../fonts/SourceSansPro-Regular.ttf"),
+    url("../fonts/SourceSansPro-Regular.woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-Italic.eot'),
-    url('../fonts/SourceSansPro-Italic.ttf'),
-    url('../fonts/SourceSansPro-Italic.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Italic.eot"),
+    url("../fonts/SourceSansPro-Italic.ttf"),
+    url("../fonts/SourceSansPro-Italic.woff");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-Light.eot'),
-    url('../fonts/SourceSansPro-Light.ttf'),
-    url('../fonts/SourceSansPro-Light.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Light.eot"),
+    url("../fonts/SourceSansPro-Light.ttf"),
+    url("../fonts/SourceSansPro-Light.woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-LightItalic.eot'),
-    url('../fonts/SourceSansPro-LightItalic.ttf'),
-    url('../fonts/SourceSansPro-LightItalic.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-LightItalic.eot"),
+    url("../fonts/SourceSansPro-LightItalic.ttf"),
+    url("../fonts/SourceSansPro-LightItalic.woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-ExtraLight.eot'),
-    url('../fonts/SourceSansPro-ExtraLight.ttf'),
-    url('../fonts/SourceSansPro-ExtraLight.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-ExtraLight.eot"),
+    url("../fonts/SourceSansPro-ExtraLight.ttf"),
+    url("../fonts/SourceSansPro-ExtraLight.woff");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src:
-    url('../fonts/SourceSansPro-ExtraLightItalic.eot'),
-    url('../fonts/SourceSansPro-ExtraLightItalic.ttf'),
-    url('../fonts/SourceSansPro-ExtraLightItalic.woff');
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-ExtraLightItalic.eot"),
+    url("../fonts/SourceSansPro-ExtraLightItalic.ttf"),
+    url("../fonts/SourceSansPro-ExtraLightItalic.woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -88,7 +80,7 @@ html {
   border: none;
   outline: none;
   box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
 }
 
@@ -137,7 +129,7 @@ html {
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   line-height: 1rem;
 }
@@ -182,7 +174,7 @@ html {
 }
 
 .sitehead__link::before {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-style: normal;
   font-variant: normal;
@@ -253,7 +245,7 @@ html {
 }
 
 .intro {
-  background-color: #81918E;
+  background-color: #81918e;
   background-image: url("../img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat, repeat;
@@ -305,7 +297,9 @@ html {
   background: #8ebebc;
 }
 
-.btn:hover, .btn:focus, btn:active {
+.btn:hover,
+.btn:focus,
+btn:active {
   color: #ffffff;
   border: 0;
   background: #9ececc;
@@ -333,8 +327,6 @@ html {
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
-
-.projects__category:last-of-type {}
 
 .projects__button {
   width: 9rem;
@@ -416,23 +408,28 @@ html {
   border-top-left-radius: 0.35rem;
   border-top-right-radius: 0.35rem;
 }
+
+.pink {
+  background-image: url(../img/project__posters/pink.jpg);
+}
+
 .rizor {
-	background-image: url(../img/project__posters/rizor.jpg);
+  background-image: url(../img/project__posters/rizor.jpg);
 }
 
 .iamwoman {
-	background-image: url(../img/project__posters/iamwoman.jpg);
+  background-image: url(../img/project__posters/iamwoman.jpg);
 }
 .device {
-	background-image: url(../img/project__posters/device.jpg);
+  background-image: url(../img/project__posters/device.jpg);
 }
 .musicjd {
-	background-image: url(../img/project__posters/jdp.jpg);
+  background-image: url(../img/project__posters/jdp.jpg);
 }
 
 .ghostbusters {
-	background-image: url(../img/project__posters/ghostbusters.jpg);
-	background-size: cover;
+  background-image: url(../img/project__posters/ghostbusters.jpg);
+  background-size: cover;
 }
 
 .projects__view {
@@ -489,7 +486,7 @@ html {
 }
 
 .skills_r_item datalist {
-  readOnly: true;
+  readonly: true;
   linecap: round;
   thickness: 0.2;
 }
@@ -531,10 +528,6 @@ html {
   stroke: #452d7933;
 }
 
-.contacts {
-  /*! margin-bottom: 4rem; */
-}
-
 .contacts__form {
   display: flex;
   align-items: center;
@@ -561,27 +554,19 @@ html {
   width: 40%;
 }
 
-input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
+input,
+textarea,
+select {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   line-height: 2rem;
   color: #000d;
   font-weight: 300;
 }
 
-.form__data {}
-
-.yourparameters {}
-
-.yourword {}
-
 .yoursubmit {
   justify-content: center;
 }
-
-#yourname {}
-
-#youremail {}
 
 #yourmessage {
   flex-grow: 1;
@@ -643,7 +628,7 @@ input, textarea, select {
 }
 
 .social__link.fab:before {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
 }
 
 .social__item span {
@@ -651,7 +636,7 @@ input, textarea, select {
 }
 
 .social__link::before {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-style: normal;
   font-variant: normal;
@@ -675,10 +660,8 @@ input, textarea, select {
   font-size: 0.8rem;
 }
 
-.copyright__label {}
-
 .copyright__label::before {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-style: normal;
   font-variant: normal;
@@ -706,29 +689,28 @@ input, textarea, select {
 }
 
 @media (max-width: 1200px) {
-	html {
+  html {
     font-size: 18px;
   }
-	.sitehead {
-		width: 320px;
-	}
-	.content {
-		margin-left: 320px;
-	}
-	.sidebottom {
-		margin-left: 320px;
-	}
-	.projects__name {
-		font-size: 1rem;
-	}
-	.projects__text {
-		font-size: 0.8rem;
-	}
-
+  .sitehead {
+    width: 320px;
+  }
+  .content {
+    margin-left: 320px;
+  }
+  .sidebottom {
+    margin-left: 320px;
+  }
+  .projects__name {
+    font-size: 1rem;
+  }
+  .projects__text {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 860px) {
-	html {
+  html {
     font-size: 16px;
   }
   .sitehead {
@@ -763,13 +745,9 @@ input, textarea, select {
     margin-left: 25%;
   }
 
-  .projects__types {}
-
   .projects__category {
     margin-bottom: 1rem;
   }
-
-  .projects__category:nth-child(even) {}
 
   .projects__list {
     display: flex;
@@ -799,7 +777,6 @@ input, textarea, select {
 }
 
 @media (max-width: 600px) {
-
   .sitehead {
     width: 40px;
     padding: 0;
@@ -819,8 +796,6 @@ input, textarea, select {
     left: auto;
     right: auto;
   }
-
-  .sitehead__menu {}
 
   .img50 {
     width: 34px;
@@ -893,13 +868,13 @@ input, textarea, select {
     width: auto;
   }
 
-	.projects__name {
-		font-size: 1.5rem;
-	}
+  .projects__name {
+    font-size: 1.5rem;
+  }
 
-	.projects__text {
-		font-size: 1rem;
-	}
+  .projects__text {
+    font-size: 1rem;
+  }
 
   .skills {
     padding: 15vw;
@@ -942,9 +917,9 @@ input, textarea, select {
     width: 40px;
   }
 
-	.sidebottom {
-	  margin-left: 40px;
-	}
+  .sidebottom {
+    margin-left: 40px;
+  }
 
   .social__list {
     display: block;
@@ -969,37 +944,42 @@ input, textarea, select {
 }
 
 @media (max-width: 460px) {
-	.block__subtitle {
-		font-size: 1.3rem;
-		margin-bottom: 1rem;
-	}
-	.intro__text {padding: 0.5rem;}
-	.sitehead__logo {margin-left: 3px;margin-top: 34px;padding-top: 0;}
+  .block__subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .intro__text {
+    padding: 0.5rem;
+  }
+  .sitehead__logo {
+    margin-left: 3px;
+    margin-top: 34px;
+    padding-top: 0;
+  }
 
-	.projects__name {
+  .projects__name {
     font-size: 1rem;
-	}
-	.projects__text {
+  }
+  .projects__text {
     font-size: 0.8rem;
-	}
-	.projects__box {
+  }
+  .projects__box {
     height: 40vh;
-	}
+  }
 
-	.skills {
+  .skills {
     padding: 5vw;
-	}
+  }
 
-	.contacts {
-		padding: 5vw;
-	}
+  .contacts {
+    padding: 5vw;
+  }
 
-	.form__item {
-  width: 100%;
-	}
+  .form__item {
+    width: 100%;
+  }
 
-	.copyright__thanks {
-		flex-direction: column;
-	}
-
+  .copyright__thanks {
+    flex-direction: column;
+  }
 }
